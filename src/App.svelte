@@ -37,7 +37,7 @@
     filter: drop-shadow(0 0 2em #646cffaa);
   }
   .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
+    filter: drop-shadow(0 0 2em #f13e1aaa);
   }
   .read-the-docs {
     color: #888;
