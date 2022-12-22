@@ -1,16 +1,16 @@
 <script>
-  import Modal from "./Modal.svelte";
+  import { createEventDispatcher } from "svelte";
 
-  let isShow = false;
+  //   export let handleChange;
+  const dispatch = createEventDispatcher();
+  const broClic = () => {
+    // dispatch an event
+    dispatch("broClic");
+  };
 </script>
 
 <div>
-  <button on:click={() => (isShow = true)}> New User </button>
-</div>
-<div>
-  {#if isShow}
-    <Modal />
-  {/if}
+  <button on:click={broClic}> New User </button>
 </div>
 
 <style>

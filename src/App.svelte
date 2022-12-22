@@ -2,4 +2,6 @@
   import Users from "./lib/Users.svelte";
 </script>
 
-<Users />
+<main>
+  <Users />
+</main>
